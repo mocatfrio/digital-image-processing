@@ -3,7 +3,7 @@ import os
 def get_list(path, list_type='img'):
     my_list = []
     if list_type == 'img':
-        valid_list = ['.jpg', '.png']
+        valid_list = ['.jpg', '.png', '.jpeg']
     # get all image name
     for f in os.listdir(path):
         ext = os.path.splitext(f)[1]
