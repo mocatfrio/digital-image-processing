@@ -92,16 +92,20 @@
 
 ## Result
 1. Original image
+   
     ![](img_train/kocenglutu1.jpeg)
 
 2. Noised images
+
     ![](img_train/all/kocenglutu1.png)
 
 3. Histogram of noised images
     * Grayscale
+  
         ![](img_train/gray_hist/kocenglutu1.png)
 
     * RGB
+
         ![](img_train/rgb_hist/kocenglutu1.png)
 
 ## Implementation of Filtering for Denoising Image
