@@ -73,7 +73,10 @@ def match_template(image, template):
     return cv2.matchTemplate(image, template, cv2.TM_CCOEFF_NORMED) 
 
 def testing(image):
-    ocr(image, 'original')
+    DEST_PATH = 'prep_img/'
+    check_dir(DEST_PATH)
+
+    # ocr(image, 'original')
     gray_image = get_grayscale(image)
     scenarios = {
         'thresholding': thresholding,
@@ -85,10 +88,18 @@ def testing(image):
     }
     for key, function in scenarios.items():
         prep_image = function(gray_image)
-        ocr(prep_image, key)
+        # ocr(prep_image, key)
+        filename = key + '_img.jpg'
+        try:
+            cv2.imwrite(DEST_PATH + filename, prep_image[:,:,::-1])
+        except IndexError:
+            cv2.imwrite(DEST_PATH + filename, prep_image)
+
 
 if __name__ == "__main__":
     IMG_PATH = "img/"
 
     image = cv2.imread(IMG_PATH + "metpen.jpg")[:,:,::-1]
     testing(image)
+
+    display_all_preprocessed_img()
