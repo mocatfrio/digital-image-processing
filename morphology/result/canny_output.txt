@@ -1,0 +1,65 @@
+05111950010040
+TUGAS IREVIIEW PAIPIEIR
+“Image Segmentation by Histogram Ihresholding using Hierarchical Cluster Analysis”
+AZ Arifin, Al Asano
+PRUNE RO STUN
+IPI IP NSy Ney Nall
+
+Algontme thresholding beroasis kriteria untuk sewmentasi gambar, seperti metode Otsu, tidak dapat
+
+menyelesaikkan masalah multi-level thresholding seefektit two-level thresholding karena kompleksitas
+
+komputasinya menimgkat secara eksponensial, sehingga kimerja algontme menjadi tidak dapat
+diandallkan.
+
+ia MORE OA
+Mengembangkan sebuah metode thresholding baru yang lebih efektiT untuk menyelesaikan masalah
+multi-level thresholding pada segmentasi gambar.
+
+1.3 METODIE
+
+Cluster Iierarkis dari bawah ke atas (bottom-up) yang direpresentasikan dengan dencogram dari tingkat
+
+abu-abu pada histogram gambar berdasarkan tingkat kesamaan yang melibatkan varian antar kelas dan
+
+cluster yang akan digabung dan variam dalam kelas dani cluster gabungan baru.
+1.@ TEIASIIL
+
+o 6Hasil evaluasi menggumakan S gambar dengam bentuk histogram bimodal dan multi-modal
+menunjukkan bahwa metocde yang diusulkan menghasilkan segmentas: gambar yang lebih baik dan
+lebih jelas daripada 3 metode lammya, yaitu: metode Otsu, KI, dan Kwon.
+
+SMBS TR Ces) MONTE CH) ecu Me) RAUL a Oe Oem RC ecle wu Han rH MGM oe nol cua EME Kec NEMEC cn
+yang menunjukkan bahwa metode yang diusulkan memuiliki basil yang terbaz&k karena
+memuiliki kesalahan klasifikasi dan kesalahan area foreground relatif yang lebih sedilkit.
+
+OR zVal UFC uacNOM (A elery AIA RD Ri coainclal NOR e cMON GM LerRy amon cn eel orcluNarcm ancl ase econ nnet ere c
+yang diusulkan pada gambar 2 dengan SNIR 23,2 dB masih lebih baik dibandingkan 3 metode
+lainnya pada gambar 2 tanpa noise.
+
+AS PeGESHEN IeaO Rey ONY
+Metode yang diusulkan menghasilkan segsmentasi gambar yang lebih baik darpacda metode Otsu, KI,
+dan Kwon. Selain itu, metode yang diusulkan juga tahan (robust) terhadap gambar dengan noise.
+
+PP SEIDEN
+
+o §6©Metode yang diusulkan berhasil menyelesaikan masalah multi-level thresholding pada seementasi
+gambar
+
+o 6©Metode yang diusulkan menghasilkan segmentasi gambar yang lebih baik daripada metode Otsu,
+IKI, dam Kwon berdasarkan metode evaluasi MIE, RAE, dam
+
+o 6Adamya penguian ketahanan (robustness) membuktkan bahwa metode yang diusulkan memuliki
+nilai tambah, yakmi tahan (robust) terhadap gambar dengan noise
+
+3. IKEKURANGAN
+
+o Tidak ada pengujian terhadap kompleksitas komputasi dari metocde yang diusulkan dan
+perbandingan kompleksitasmya amtara multi-level dam two-level thresholding, schingga metode
+yang diusullan belum menyelesaikan masalah utama
+
+4, SAIRAN
+
+o 6Melakukan pengujjan terhadap kompleksitas komputasi dar metode yang ciusulkan dan
+
+membandingkan kompleksitasnya antara multi-level dan two-level thresholding
