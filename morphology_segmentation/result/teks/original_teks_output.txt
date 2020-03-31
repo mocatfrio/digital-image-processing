@@ -1,0 +1,8 @@
+Region-based segmentation
+ay
+peetyus first determine markers of the coins and the
+ekeround. These markers are pixels that we can label
+Abiguously as either object or background. Here,
+ferkers are found at the two extreme parts of the
+Fam of grey values:
+athe 3 © ip. zeros_like(coins)

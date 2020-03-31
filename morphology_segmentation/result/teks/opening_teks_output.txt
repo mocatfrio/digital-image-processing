@@ -1,0 +1,7 @@
+Res lon-based segmentation
+U8 first determine markers of the coins and the
+ound. These markers are plenis that we can label
+ety @s either object or background. Here,
+Ge found at the two extreme parts of the
+of grey Veiues:
+cE mp. mero oom )
