@@ -1,8 +1,0 @@
-Region-based segmentation
-Let us first determine markers of the coins and the
-background. These markers are pixels that we can labe!
-Unambiguously as either object or background. Here.
-the markers até found at the two extreme parts of the
-histagram of grey values:
-
--” markers ‘ OP. 2eron like(coins)

@@ -1,8 +1,0 @@
-Region-~based segmentation
-ea
-meee first determine markers of the coins and the
-meground. These markers are pixels that we can label
-Bbiguousiy as either object or background. Here.
-markers are found at the two extreme parts of the
-Fam of grey values:
-ies . © RR. zeros _like(coins)
